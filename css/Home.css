@@ -1,0 +1,95 @@
+/* home */
+#introductie-home, #naar-mijnwerk-home, #naar-overmij-home {
+	margin: 0 40px 40px 40px;
+}
+.fotoHome {
+	width: 100%;
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width: 750px){
+	h1 {
+		margin-bottom: 0;
+		margin-top: 40px;
+	}
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 0;
+		grid-row-gap: 0;
+		grid-template-areas: 
+			"title	title"
+			"main	ad1"
+			"ad2	ad3"
+			"ad4	ad5"
+			"foot 	foot"
+	}
+	header {
+		grid-area: title;
+	}
+	#introductie-home {
+		grid-area: main;
+		margin: 0 60px 60px 60px;
+	}
+	#HomeFoto1 {
+		grid-area: ad1;
+	}
+	#HomeFoto2 {
+		grid-area: ad2;
+	}
+	#naar-mijnwerk-home {
+		grid-area: ad3;
+		margin: 10px 40px 40px 40px;
+	}
+	#naar-overmij-home {
+		grid-area: ad4;
+		margin: 10px 40px 40px 40px;
+	}
+	#HomeFoto3 {
+		grid-area: ad5;
+	}
+	footer {
+		grid-area: foot;
+		margin-top: 0;
+	}
+	#Copyright {
+		width: 15px;
+	}
+	header {
+		margin-bottom: -8px;
+	}
+}
+
+/* tussen */
+@media only screen and (min-width: 1000px){
+	#introductie-home {
+		margin: 90px 70px 70px 70px;
+	}
+	#naar-mijnwerk-home, #naar-overmij-home {
+		margin: 20px 50px 50px 50px;
+	}	
+}
+
+
+/*klein*/
+@media only screen and (min-width: 1050px){
+	#introductie-home {
+		margin: 70px 90px 90px 90px;
+	}
+	#naar-mijnwerk-home, #naar-overmij-home {
+		margin: 30px 70px 70px 70px;
+	}
+	#pijlBeneden {
+		margin-left: 48%;
+		bottom: 10px;
+		width: 22px;
+	}
+}
+
+
+/*groot*/
+@media only screen and (min-width: 1560px) {
+
+}

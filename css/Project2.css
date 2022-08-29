@@ -1,0 +1,110 @@
+main {
+    margin: 0 50px 0 50px;
+}
+ul li {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: -15px;
+}
+#werk-pr2 {
+    background-color: #BFD4E3;
+    border-radius: 15px;
+    padding: 15px 50px 15px 50px;
+    margin-bottom: 30px;
+}
+.tool {
+    width: 60px;
+    margin-right: 10px;
+}
+#Project2Foto1, #Project2Foto2 {
+    width: 100%;
+}
+.zoom {
+    cursor: zoom-in;
+}
+footer {
+    margin-top: 40px;
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width: 750px){
+    main {
+        margin: 0 90px 0 90px;
+    }
+    #werk-pr2 {
+        float: left;
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+    #tools-pr2 {
+        margin-top: 40px;
+    }
+    #Project2Foto1, #Project2Foto2 {
+        width: 47%;
+    }
+    #Conceptfase-pr2 {
+        clear: left;
+    }
+    #Project2Foto2 {
+        float: right;
+        margin-top: -725px;
+    }
+}
+
+
+
+
+/*klein*/
+@media only screen and (min-width: 1050px){
+    #introductieItems {
+        display: flex;
+        align-items: flex-start;
+    }
+    #tekstIntro {
+        margin-right: 40px;
+    }
+    #werk-pr2 {
+        margin-right: 0;
+    }
+    h1 {
+        margin-bottom: 0;
+    }
+    #tools-pr2 {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    #conceptfaseItems {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+    #Project2Foto1 {
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    #appiclatieItems {
+        display: flex;
+        align-items: flex-start;
+    }
+    #Project2Foto2 {
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    .tekstBreak {
+        -webkit-columns: 40px 2;
+            /* Chrome, Safari, Opera */
+            -moz-columns: 60px 2;
+            /* Firefox */
+            columns: 60px 2;
+    }
+}
+
+
+/*groot*/
+@media only screen and (min-width: 1560px) {
+    main {
+        margin: 0 200px 0 200px;
+    }
+}
