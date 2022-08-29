@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mijn werk</title>
+        <link rel="icon" type="image/x-icon" href="svg/Favicon.svg" />
+        <link rel="stylesheet" type="text/css" href="css/Algemeen.css"/>
+		<link rel="stylesheet" type="text/css" href="css/MijnWerk.css" id="lightCss"/>
+
+    </head>
+    <body id="page">
+        
+        <header id="header">
+			<a href="index.html"><img src="svg/Logo.svg" alt="Logo Maartje Bakker" id="logo"></a>
+			<div class="menutoggle headerItem">
+	  			<a href="#">&#9776;</a>
+            </div>
+            <nav id="menu" class="grid-item inactive">
+                <ul>
+                    <li><a href="MijnWerk.html">Mijn Werk</a></li>
+                    <li><a href="OverMij.html">Over mij</a></li>
+                    <li><a href="Contact.html">Contact</a></li>  		
+                </ul>
+            </nav> 
+            <a href="#" onclick="swapStyleSheet('cssDark/MijnWerk.css')"><img src="svg/ContrastChange.svg" alt="Contrast veranderen" id="contrastKnop" class="headerItem"></a>
+            <a href="#" onclick="swapStyleSheet('css/MijnWerk.css')"><img src="svg/ContrastChangeLight.svg" alt="Contrast veranderen" id="contrastKnop" class="headerItem"></a>  
+		</header>
+
+        <main id="MijnWerk">
+            <h1>Mijn werk</h1>
+            <section id="project1" class="project">
+                <div id="tekstProject1" class="tekstProjecten">
+                    <p class="datum">September, 2021</p>
+                    <h2 class="bold">Zonnepaneel btw-checker</h2>
+                    <h3 class="light">Vraag de btw van je zonnepanelen makkelijker terug bij de Belastingdienst.</h3>
+                    <a href="Project1.html" id="btnNaarProject1" class="button">Naar project</a>
+                </div>
+                <img src="Afbeeldingen/MijnWerkFoto1.png" alt="Collage van afbeeldingen van het project" id="MijnwerkFoto1">
+            </section>
+
+            <section id="project2" class="project">
+                <div id="tekstProject2" class="tekstProjecten">
+                    <p class="datum">Februari, 2021</p>
+                    <h2 class="bold">Memomie</h2>
+                    <h3 class="light">Hulp voor mantelzorgers bij de zorg voor dementerende mensen.</h3>
+                    <a href="Project2.html" id="btnNaarProject2" class="button">Naar project</a>
+                </div>
+                <img src="Afbeeldingen/MijnWerkFoto2.png" alt="Collage van afbeeldingen van het project" id="MijnwerkFoto2">
+            </section>
+
+            <section id="project3" class="project">
+                <div id="tekstProject3" class="tekstProjecten">
+                    <p class="datum">April, 2022</p>
+                    <h2 class="bold">Onderzoek Web Accessibility</h2>
+                    <h3 class="light">Mijn onderzoek naar Web Accessibility en wat ik er zo interessant aan vindt.</h3>
+                    <a href="Project3.html" id="btnNaarProject3" class="button">Naar project</a>
+                </div>
+                <img src="Afbeeldingen/MijnWerkFoto3.png" alt="Collage van afbeeldingen van het project" id="MijnwerkFoto3">
+            </section>
+
+            <section id="project4" class="project">
+                <div id="tekstProject4" class="tekstProjecten">
+                    <p class="datum">September, 2020</p>
+                    <h2 class="bold">CMD in de etalage</h2>
+                    <h3 class="light">Vind alles over de studie CMD en haal inspiratie uit het werk van anderen.</h3>
+                    <a href="Project4.html" id="btnNaarProject4" class="button">Naar project</a>
+                </div>
+                <img src="Afbeeldingen/MijnWerkFoto4.png" alt="Collage van afbeeldingen van het project" id="MijnwerkFoto4">
+            </section>
+        </main>
+
+
+        <footer>
+            <img src="svg/Copyright.svg" alt="Copyright" id="Copyright" class="footerItem">
+            <p class="footerItem">2022 Maartje Bakker</p>
+        </footer>
+        
+        <!-- pijl naar de top -->
+        <aside id="btnToTop">
+            <a href="#" onclick="topFunction()" id="toTop" title="go to top"><img src="svg/ToTop.svg" alt="Button naar top van de pagina" id="btntotop"></a>
+        </aside>
+
+        <script type="text/javascript" src="Algemeen.js"></script>
+
+    </body>
+</html>

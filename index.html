@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio Maartje Bakker</title>
+        <link rel="icon" type="image/x-icon" href="svg/Favicon.svg" />
+        <link rel="stylesheet" type="text/css" href="css/Algemeen.css" />
+		<link rel="stylesheet" type="text/css" href="css/Home.css" id="lightCss"/>
+
+
+    </head>
+    <body id="page">
+
+        <header id="header">
+			<a href="index.html"><img src="svg/Logo.svg" alt="Logo Maartje Bakker" id="logo"></a>
+			<div class="menutoggle headerItem">
+	  			<a href="#">&#9776;</a>
+            </div>
+            <nav id="menu" class="grid-item inactive">
+                <ul>
+                    <li><a href="MijnWerk.html">Mijn Werk</a></li>
+                    <li><a href="OverMij.html">Over mij</a></li>
+                    <li><a href="Contact.html">Contact</a></li>  		
+                </ul>
+            </nav> 
+            <div id="contrastKnoppen">
+                <a href="#" onclick="swapStyleSheet('cssDark/Home.css')"><img src="svg/ContrastChange.svg" alt="Contrast veranderen" id="ContrastDark" class="headerItem"></a>
+                <a href="#" onclick="swapStyleSheet('css/Home.css')"><img src="svg/ContrastChangeLight.svg" alt="Contrast veranderen" id="ContrastLight" class="headerItem"></a>  
+            </div>
+		</header>
+
+        <main class="container">
+            <!-- 1e blok -->
+            <section id="introductie-home">
+                <h1>Hi! Ik ben Maartje</h1>
+                <h2 class="light">
+                    Een inclusive designer in opleiding en zeer gedreven om nog meer te leren voor ik klaar ben met mijn studie.
+                </h2>
+            </section>
+            <img src="Afbeeldingen/HomeFoto1.JPG" alt="Maartje Bakker" id="HomeFoto1" class="fotoHome">
+
+            <!-- 2e blok -->
+            <section id="naar-mijnwerk-home">
+                <h2 class="bold">Bekijk mijn werk!</h2>
+                <h3 class="light">
+                    Tijdens mijn studie heb ik een hele hoop projecten gedaan. 
+                    De projecten die ik het leukst en het meest interessant vond heb ik uitgewerkt. 
+                    Lees en bekijk daar alles van!
+                </h3>
+                <a href="MijnWerk.html" id="btnNaarMijnWerk" class="button">Naar mijn werk</a>
+            </section>
+            <img src="Afbeeldingen/HomeFoto2-2.jpeg" alt="Werkplek" id="HomeFoto2" class="fotoHome">
+            <!-- <picture>
+                <source media="(max-width: 749px)"  srcset="Afbeeldingen/HomeFoto2-1.jpeg" class="fotoHome HomeFoto2" id="HomeFoto21" />
+                <source media="(min-width: 750px) and (max-width: 1149px)"  srcset="Afbeeldingen/HomeFoto2-2.jpeg" class="fotoHome HomeFoto2" id="HomeFoto22" />
+                <source media="(min-width: 1150px)" srcset="Afbeeldingen/HomeFoto2-3.jpeg" class="fotoHome HomeFoto2" id="HomeFoto23" />
+                <img src="Afbeeldingen/HomeFoto2-2.jpeg" alt="Werkplek" id="HomeFoto2" class="fotoHome" />
+            </picture> -->
+
+            <!-- 3e blok -->
+            <section id="naar-overmij-home">
+                <h2 class="bold">Lees meer over mij!</h2>
+                <h3 class="light">
+                    Wat ik in het dagelijks leven doe, 
+                    wie ik ben, wat mijn interesses zijn, wat ik kan en wat mijn ervaring is. 
+                    Krijg een goed beeld van mij!
+                </h3>
+                <a href="OverMij.html" id="btnNaarOverMij" class="button">Meer over mij</a>
+            </section>
+            <img src="Afbeeldingen/HomeFoto3.jpeg" alt="Maartje in de bergen" id="HomeFoto3" class="fotoHome">
+        </main>
+
+        <footer>
+            <img src="svg/Copyright.svg" alt="Copyright" id="Copyright" class="footerItem">
+            <p class="footerItem">2022 Maartje Bakker</p>
+        </footer>
+        
+        <!-- pijl naar de top -->
+        <aside id="btnToTop">
+            <a href="#" onclick="topFunction()" id="toTop" title="go to top"><img src="svg/ToTop.svg" alt="Button naar top van de pagina" id="btntotop"></a>
+        </aside>
+
+        <script type="text/javascript" src="Algemeen.js"></script>
+
+    </body>
+</html>

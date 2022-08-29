@@ -1,0 +1,66 @@
+main {
+    margin: 0 50px 0 50px;
+}
+ul li {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: -15px;
+}
+#werk-pr3 {
+    background-color: #BFD4E3;
+    border-radius: 15px;
+    padding: 15px 50px 15px 50px;
+    margin-bottom: 30px;
+}
+footer {
+    margin-top: 40px;
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width: 750px){
+    main {
+        margin: 0 90px 0 90px;
+    }
+    #werk-pr3 {
+        width: 40%;
+        margin-top: 40px;
+    }
+}
+
+
+
+
+/*klein*/
+@media only screen and (min-width: 1050px){
+    #introductieItems {
+        display: flex;
+        align-items: flex-start;
+    }
+    #tekstIntro {
+        margin-right: 40px;
+    }
+    #werk-pr3 {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    h1 {
+        margin-bottom: 0;
+    }
+    .tekstBreak {
+        -webkit-columns: 40px 2;
+            /* Chrome, Safari, Opera */
+            -moz-columns: 60px 2;
+            /* Firefox */
+            columns: 60px 2;
+    }
+}
+
+
+/*groot*/
+@media only screen and (min-width: 1560px) {
+    main {
+        margin: 0 200px 0 200px;
+    }
+}

@@ -1,0 +1,127 @@
+/* Over mij */
+main {
+    margin: 0 50px 0 50px;
+}
+#introductieOverMij {
+    margin-bottom: 20px;
+}
+#OverMijFoto1 {
+    width: 100%;
+}
+p {
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.inHetKort {
+    margin-top: 0;
+}
+.uitzondering {
+    margin-bottom: 20px;
+}
+#lijstPersoonlijkheden {
+    background-color: #BFD4E3;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+ul li {
+    font-size: 16px;
+	letter-spacing: 0.8px;
+	line-height: 25px;
+    font-weight: lighter;
+}
+.vaardigheid {
+    width: 60px;
+    margin: 0 20px 20px 0;
+}
+#OverMijFoto5, #OverMijFoto9 {
+    margin-right: 0;
+}
+.clearTop {
+    margin-top: -15px;
+}
+.elementCV {
+    padding: 40px;
+    background-color: #BFD4E3;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.elementCV p {
+    margin-bottom: 0;
+}
+footer p {
+    margin: 0;
+}
+footer {
+    margin-top: 40px;
+}
+
+
+
+
+/*tablet*/
+@media only screen and (min-width: 750px){
+	main {
+        margin: 0 70px 0 70px;
+    }
+    #persoonlijkheidOverMij {
+        display: flex;
+        align-items: flex-start;
+    }
+    #lijstPersoonlijkheden {
+        width: 200%;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    #OverMijFoto5 {
+        margin-right: 20px;
+    }
+    #cvItems {
+        display: flex;
+        align-items: flex-start;
+    }
+    .titelErvaring {
+        margin-top: -15px;
+    }
+    #ervaring {
+        margin-left: 40px;
+    }
+    #opleinding {
+        margin-right: 40px;
+    }
+}
+
+
+/*klein*/
+@media only screen and (min-width: 1050px){
+	main {
+        margin: 0 100px 0 100px;
+    }
+    #tekstIntro {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+    #OverMijFoto1 {
+        width: 47%;
+        margin-right: 40px;
+    }
+    .tekstBreak {
+        -webkit-columns: 40px 2;
+            /* Chrome, Safari, Opera */
+            -moz-columns: 60px 2;
+            /* Firefox */
+            columns: 60px 2;
+    }
+    .break {
+        padding-top: 15px;
+    }
+}
+
+
+/*groot*/
+@media only screen and (min-width: 1560px) {
+    main {
+        margin: 0 200px 0 200px;
+    }
+}
